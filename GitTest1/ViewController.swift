@@ -1,19 +1,14 @@
-//
-//  ViewController.swift
-//  GitTest1
-//
-//  Created by Mikhail Morochko on 27.11.23.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let label = UILabel()
+        label.text = "123"
+
+        view.addSubview(label)
+
+        label.frame = view.frame
     }
-
-
 }
-
