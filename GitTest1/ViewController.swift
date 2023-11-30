@@ -5,7 +5,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let label = UILabel()
-        label.text = "Hello! 123456"
+        label.text = "Hello! World!"
 
         view.addSubview(label)
 
